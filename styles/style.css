@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Barlow Medium";
-    src: url("/fonts/BarlowSemiCondensed-Medium.ttf") format('truetype');
+    src: url("../fonts/BarlowSemiCondensed-Medium.ttf") format('truetype');
 }
 
 @font-face {
     font-family: "Barlow SemiBold";
-    src: url("/fonts/BarlowSemiCondensed-SemiBold.ttf") format('truetype');
+    src: url("../fonts/BarlowSemiCondensed-SemiBold.ttf") format('truetype');
 }
 
 
