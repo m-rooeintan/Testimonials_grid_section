@@ -62,8 +62,14 @@ body{
     grid-area: article1;
     background-color: var(--moderate-violet);
     color: #fff;
+    position: relative;
 }
-
+.pattern{
+    position: absolute;
+    z-index: 0;
+    top: 4%;
+    right: 15%;
+}
 .article-2{
     grid-area: article2;
     background-color: var(--verydark-grayishblue);
@@ -97,6 +103,7 @@ body{
 .author{
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 .author__avatar{
     width: 32px;
@@ -121,10 +128,11 @@ opacity: 0.5;
 }
 .article__title{
     font-family: var(--primary-font-b);
-    font-size: 2.2rem;
-    margin-top: 2rem;
+    font-size: 2.1rem;
+    margin-top: 1rem;
     margin-bottom: 3rem;
     line-height: 1.3;
+    position: relative;
 }
 .article__text{
  font-size: 1.45rem;
@@ -146,5 +154,8 @@ opacity: 0.5;
     padding-left: 0.7rem;
     padding-right: 0.7rem;
 }
-    
+    .pattern{
+        top: 1%;
+        right: 6%;
+    }
 }
